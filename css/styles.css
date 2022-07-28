@@ -60,6 +60,14 @@ body {
 }
 
 /*--------------Лого--------------*/
+.main-nav {
+    align-items: center;
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
     font-family: 'Raleway';
@@ -75,7 +83,21 @@ body {
 }
 /*--------------Навигация--------------*/
 
+
+.header-list {
+    display: flex;
+}
+
+
+
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+
 .header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -85,6 +107,10 @@ body {
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
+}
+
+.header-item-contact:not(:last-child) {
+    margin-right: 32px;
 }
 
 .header-tel,
