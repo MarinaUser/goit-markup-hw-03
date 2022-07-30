@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container main-nav">
         <nav class="header-nav">
         <a href="/" class="header-logo link" lang="en"><span class="header-logo-blue">Web</span><span>Studio</span></a>
             <ul class="header-list list">
-                <li class="header-item"><a href="" class="header-link link">Студия</a></li>
-                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+                <li class="header-item"><a href="" class="header-link link">Студія</a></li>
+                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
+                <li class="header-item"><a href="" class="header-link link">Контакти</a></li>
             </ul>
         </nav>
+        <div class="header-contact">
         <ul class="header-list list">
-            <li><a href="mailto:info@devstudio.com" class="header-tel link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-mail link">+38 096 111 11 11</a></li>  
+            <li class="header-item-contact"><a href="mailto:info@devstudio.com" class="header-tel link">info@devstudio.com</a></li>
+            <li class="header-item-contact"><a href="tel:+380961111111" class="header-mail link">+38 096 111 11 11</a></li>      
         </ul>
-    </div>
+        </div>
+        </div>
     </header>
     <main>
         <section class="potfolio">
@@ -35,15 +37,16 @@
             <h1 class="visually-hidden">Портфолио</h1>
             <ul class="potfolio-list list">
                 <li class="potfolio-item"><button type="button" class="portfolio-btn">Все</button></li>
-                <li class="potfolio-item"><button type="button" class="portfolio-btn">Веб-сайты</button></li>
-                <li class="potfolio-item"><button type="button" class="portfolio-btn">Приложения</button></li>
+                <li class="potfolio-item"><button type="button" class="portfolio-btn">Веб-сайти</button></li>
+                <li class="potfolio-item"><button type="button" class="portfolio-btn">Додатки</button></li>
                 <li class="potfolio-item"><button type="button" class="portfolio-btn">Дизайн</button></li>
                 <li class="potfolio-item"><button type="button" class="portfolio-btn">Маркетинг</button></li>
             </ul>
             </div>
         
-            <div class="container-list">
+            
             <ul class="portfolio-list-open list">
+               
                 <li class="portfolio-item-open">
                     <a href="" class="portfolio-link link">
                         <img class="potfolio-img" src="./img/portfolio/texnokryak.jpg" alt="Веб-сайт Технокряк">
@@ -62,7 +65,7 @@
                     <a href="" class="portfolio-link link">
                         <img class="potfolio-img" src="./img/portfolio/restoran.jpg" alt="Ресторан Seafood">
                         <h2 class="potfolio-title">Ресторан <span lang="en">Seafood</span></h2>
-                        <p class="portfolio-text">Приложение</p>
+                        <p class="portfolio-text">Додаток</p>
                     </a>   
                 </li>
                 <li class="portfolio-item-open">
@@ -76,7 +79,7 @@
                     <a href="" class="portfolio-link link">
                         <img class="potfolio-img" src="./img/portfolio/boxes.jpg" alt="Проект Boxes">
                         <h2 class="potfolio-title">Проект <span lang="en">Boxes</span></h2>
-                        <p class="portfolio-text">Приложение</p>
+                        <p class="portfolio-text">Додаток</p>
                     </a>   
                 </li>
                 <li class="portfolio-item-open">
@@ -104,12 +107,13 @@
                     <a href="" class="portfolio-link link">
                         <img class="potfolio-img" src="./img/portfolio/growingbusiness.jpg" alt="Growing Business">
                         <h2 class="potfolio-title"><span lang="en">Growing Business</span></h2>
-                        <p class="portfolio-text">Приложение</p>  
+                        <p class="portfolio-text">Додаток</p>  
                     </a>
-                </li>                                       
+                </li>  
+                                               
             </ul>
             </div>
-            </div>
+            
         </section>
     </main>
     <footer class="footer">
