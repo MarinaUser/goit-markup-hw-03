@@ -257,6 +257,7 @@ body {
 
 .name {
     padding-top: 30px;
+    padding-bottom: 30px;
     page-break-inside: 30px;
 }
 
