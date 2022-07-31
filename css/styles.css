@@ -51,8 +51,7 @@ body {
 
 /*--------------Heder--------------*/
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+  
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -71,6 +70,8 @@ body {
 }
 
 .header-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 93px;
     font-family: 'Raleway';
     font-weight: 700;
@@ -89,7 +90,10 @@ body {
 .header-list {
     display: flex;
     column-gap: 50px;
+    margin-left: auto;
+    
 }
+
 
 
 
@@ -113,6 +117,8 @@ body {
 
 .header-tel,
 .header-mail {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -130,14 +136,12 @@ body {
 }
 /*--------------Hero--------------*/
 .hero {
-    background-color: #2F303A;;
-}
-
-.hero-content {
+    background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
 }
+
+
 .hero-title {
     margin: 0 auto;
     margin-bottom: 30px;
@@ -151,6 +155,8 @@ body {
     color: #FFFFFF;
 }
 .hero-btn {
+    display: block;
+    margin: 0 auto;
     padding: 10px 32px;
     font-family: inherit;
     font-weight: 700;
@@ -221,8 +227,10 @@ body {
 
 /*--------------Чем мы занимаемся-------------*/
 .work {
+    padding-bottom: 94px;
     background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
     mix-blend-mode: normal;
+
    
 }
 
@@ -250,6 +258,11 @@ body {
     
 }
 
+.name {
+    padding-top: 30px;
+    page-break-inside: 30px;
+}
+
 .team-list {
     display: flex;
     gap: 30px;
@@ -264,9 +277,7 @@ body {
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
 }
-.team-img {
-    margin-bottom: 30px;
-}
+
 
 .team-title {
     margin-bottom: 50px;
@@ -308,6 +319,7 @@ body {
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 20px;
     font-family: 'Raleway';
     font-weight: 700;
@@ -321,7 +333,6 @@ body {
 }
 
 .footer-map {
-    margin-top: 20px;
     margin-bottom: 9px;
     font-style: normal;
     font-size: 14px;
@@ -372,6 +383,7 @@ body {
 }
 
 .portfolio-btn {
+    border: none;
     height: 38px;
     padding: 6px 22px;
     font-family: inherit;
@@ -419,7 +431,6 @@ body {
 
 
 .potfolio-title {
-    margin-top: 20px;
     margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
@@ -437,7 +448,7 @@ body {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE ;
     padding: 20px 24px;
-    margin-bottom: 4px;
+
 }
 
 
