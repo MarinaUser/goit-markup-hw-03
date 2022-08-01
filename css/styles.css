@@ -114,6 +114,7 @@ body {
 
 .header-tel,
 .header-mail {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -273,7 +274,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
+    
 }
 
 
@@ -311,7 +312,7 @@ body {
 }
 
 .footer-address {
-    width: 230px;
+
     font-style: normal;
 
 }
@@ -339,12 +340,9 @@ body {
     color: #FFFFFF;
 }
 
-.footer-list {
-    margin-top: 9px;
-    margin-bottom: 9px;
-}
 
-.footer-item {
+
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
